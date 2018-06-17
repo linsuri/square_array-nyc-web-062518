@@ -4,6 +4,6 @@ def square_array(array)
     x*x
 end
 
-basket.each do |apple|
-    puts "Taking out #{apple}"
-end
+#basket.each do |apple|
+#    puts "Taking out #{apple}"
+#end
