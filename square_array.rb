@@ -1,8 +1,8 @@
 def square_array(array)
   # your code here
-  array.each do |x|
-    x**2
-  end  
+  new_array = []
+  array.each {|x| new_array << x*x}
+
 end
 
 #basket.each do |apple|
